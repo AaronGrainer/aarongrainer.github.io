@@ -1,0 +1,11 @@
+.top-buffer { margin-top: 40px }
+.top-margin-lg { margin-top: 100px }
+.bottom-buffer { margin-bottom: 30px; }
+
+#linkColor {
+  color: GRAY
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}

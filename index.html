@@ -4,7 +4,7 @@ title: Aaron Grainer
 cover: 'assets/images/LQqfap.jpg'
 class: 'home-template'
 navigation: False
-logo: 'assets/images/ghost.png'
+logo2: 'assets/images/logo/grainer-logo.png'
 current: home
 ---
 <!-- < default -->
@@ -27,8 +27,22 @@ current: home
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
-<!-- The main content area on the homepage -->
-<main id="content" class="content" role="main">
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
+{% comment %}
+{% include about.html %}
+{% endcomment %}
+
+<main id="content" class="content bg-light-gray" role="main">
+    {% comment %}
     {% include loop.html %}
+    {% endcomment %}
 </main>
+
+{% include timeline.html %}
+
+<main id="content" class="content bg-light-gray" role="main">
+    {% include author.html %}
+</main>
+
+
+
+

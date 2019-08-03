@@ -7,10 +7,17 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: 'Aaron Grainer'
-description: "Full stack developer and part-time Artificial Intelligence researcher. The story begins here."
+name: Aaron Grainer
+description: Full stack developer and part-time Artificial Intelligence researcher. The story begins here.
+bio: Full stack developer and part-time Artificial Intelligence researcher.
+location: Kuala Lumpur, Malaysia
+email: aaronlimfz@hotmail.com
+profile_picture: assets/images/profile/grainer.jpg
 
-short_url: 'aarongrainer.github.io'
+short_url: aarongrainer.github.io
+github_url: github.com/aarongrainer
+linkedin_url: linkedin.com/in/aarongrainer
+twitter_url: twitter.com/aarongrainer
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)

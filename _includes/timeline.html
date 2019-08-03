@@ -1,0 +1,51 @@
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading top-buffer">Timeline</h2>
+        <h4 class="section-subheading text-muted bottom-buffer">My journey up till this point</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline bottom-buffer">
+          {% for timeline in site.data.timeline %}
+          {% assign timelineMod = timeline[1].index | modulo: 2 %}
+          {% if timelineMod == 0 %}
+            <li>
+              <div class="timeline-image">
+                <img class="img-circle img-responsive" src="{{ timeline[1].assets }}" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>{{ timeline[1].date }}</h4>
+                  <h4 class="subheading">{{ timeline[1].title }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">{{ timeline[1].description }}</p>
+                </div>
+              </div>
+            </li>
+          {% else %}
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="img-circle img-responsive" src="{{ timeline[1].assets }}" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>{{ timeline[1].date }}</h4>
+                  <h4 class="subheading">{{ timeline[1].title }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">{{ timeline[1].description }}</p>
+                </div>
+              </div>
+            </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
