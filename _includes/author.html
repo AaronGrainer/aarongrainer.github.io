@@ -1,0 +1,32 @@
+<main class="content" role="main">
+  <article class="post">
+    <footer class="post-footer">
+      <figure class="author-image">
+        <a class="img"
+          style="background-image: url({{ site.baseurl }}{{ site.profile_picture }})"><span
+            class="hidden">{{ site.name }}'s Picture</span></a>
+      </figure>
+
+      <section class="author">
+        <h4>{{ site.name }}</h4>
+
+        <p> {{ site.bio }}</p>
+        <div class="author-meta">
+          <span class="author-location icon-location">
+            {{ site.location }}</span>
+          <span class="author-link icon-link"><a href="https://{{ site.github_url }}" target="_blank">
+              {{ site.github_url }}</a></span>
+        </div>
+      </section>
+
+      <section class="share">
+        <h4>Feel free to contact me</h4>
+        <a class="icon-twitter" href="https://{{ site.twitter_url }}" target="_blank"></a>
+        <a class="fab fa-linkedin-in" href="https://{{ site.linkedin_url }}" target="_blank"></a>
+        <a class="fab fa-github" href="https://{{ site.github_url }}" target="_blank"></a>
+        <a class="fa fa-envelope" href="mailto: {{ site.email }}"></a>
+        <a class="fa fa-pied-piper" href="http://www.piedpiper.com/" target="_blank"></a>
+      </section>
+    </footer>
+  </article>
+</main>

@@ -1,0 +1,17 @@
+0:
+  index: 0
+  date: 2014 - 2018
+  title: Undergraduate
+  description: I graduated from The University of Nottingham, Malaysia with a Mechatronics Engineering degree. During my third year,
+    I did a group project in researching and designing a Mechanical Bird; and during my final year, I finished a individual 
+    project with a visual-based Human Action Recognition. 
+  assets: assets/images/timeline/nottingham.jpg
+1:
+  index: 1
+  date: 2018 - Present
+  title: Startup
+  description: Co-founded a software company specialized in designing service-based architectural solutions. Worked mainly as a 
+    full-stack developer designing front-end/back-end systems and integrating APIs. 
+  assets: assets/images/timeline/startup.jpg
+
+

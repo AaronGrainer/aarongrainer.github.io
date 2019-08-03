@@ -1,0 +1,14 @@
+<!-- Services Section -->
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-justify bottom-buffer">
+        <h2 class="section-heading text-center">About</h2>
+        <p>
+          {% capture about %}{% include about.md %}{% endcapture %}
+          {{ about | markdownify }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

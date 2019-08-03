@@ -144,6 +144,9 @@ td, th{ padding: 0; }
 .icon-google-plus:before {
     content: "\f603";
 }
+.icon-email:before {
+    content: "\00A5";
+}
 .icon-facebook:before {
     content: "\f604";
 }
@@ -1265,7 +1268,7 @@ body.page-template .post-title {
     position: absolute;
     top: 3rem;
     right: 0;
-    width: 140px;
+    width: 200px;
 }
 
 .post-footer .share a {
@@ -1283,6 +1286,9 @@ body.page-template .post-title {
     color: #3b5998;
 }
 .post-footer .share .icon-google-plus:hover {
+    color: #dd4b39;
+}
+.post-footer .share .icon-email:hover {
     color: #dd4b39;
 }
 
