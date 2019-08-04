@@ -1,0 +1,33 @@
+placeholder1:
+  image: assets/images/skills/placeholder.png
+  alt:
+tensorflow:
+  image: assets/images/skills/tensorflow.png
+  alt: Tensorflow
+pytorch:
+  image: assets/images/skills/pytorch.png
+  alt: Pytorch
+keras:
+  image: assets/images/skills/keras.jpg
+  alt: Keras
+gcloud: 
+  image: assets/images/skills/gcloud.png
+  alt: gcloud
+firebase:
+  image: assets/images/skills/firebase.png
+  alt: Firebase
+bigquery:
+  image: assets/images/skills/bigquery.png
+  alt: Bigquery
+react:
+  image: assets/images/skills/react.png
+  alt: React
+python:
+  image: assets/images/skills/python.png
+  alt: Python
+nodejs:
+  image: assets/images/skills/nodejs.png
+  alt: NodeJS
+placeholder2:
+  image: assets/images/skills/placeholder.png
+  alt:

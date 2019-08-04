@@ -1,11 +1,23 @@
-.top-buffer { margin-top: 40px }
-.top-margin-lg { margin-top: 100px }
-.bottom-buffer { margin-bottom: 30px; }
+.top-buffer-lg {
+  margin-top: 80px
+}
+.top-buffer {
+  margin-top: 40px
+}
+.top-margin-lg {
+  margin-top: 100px
+}
+.bottom-buffer {
+  margin-bottom: 30px;
+}
 
 #linkColor {
   color: GRAY
 }
-
 .bg-light-gray {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
+}
+.img-greyscale {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }

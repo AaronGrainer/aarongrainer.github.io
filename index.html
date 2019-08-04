@@ -7,40 +7,42 @@ navigation: False
 logo2: 'assets/images/logo/grainer-logo.png'
 current: home
 ---
-<!-- < default -->
-<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header  -->
-<header class="main-header {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
-        {% if page.navigation %}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-        {% endif %}
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">{{ site.description }}</h2>
-        </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+
+<header class="main-header" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
+	<nav class="main-nav overlay clearfix">
+		{% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
+		{% if page.navigation %}
+			<a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+		{% endif %}
+	</nav>
+	<div class="vertical">
+		<div class="main-header-content inner">
+			<h1 class="page-title">{{ site.name }}</h1>
+			<h2 class="page-description">{{ site.description }}</h2>
+		</div>
+	</div>
+	<a class="scroll-down icon-arrow-left" href="#skills" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
-{% comment %}
+<!-- {% comment %}
 {% include about.html %}
-{% endcomment %}
+{% endcomment %} -->
 
-<main id="content" class="content bg-light-gray" role="main">
-    {% comment %}
-    {% include loop.html %}
-    {% endcomment %}
+<main id="skills" class="content bg-light-gray" role="main">
+	{% include skills.html %}
 </main>
+
+<!-- <main id="content" class="content bg-light-gray" role="main">
+	{% comment %}
+	{% include projects.html %}
+	{% endcomment %}
+</main> -->
 
 {% include timeline.html %}
 
-<main id="content" class="content bg-light-gray" role="main">
-    {% include author.html %}
+<main id="author" class="content bg-light-gray" role="main">
+	{% include author.html %}
 </main>
 
 
