@@ -28,6 +28,3 @@ python:
 nodejs:
   image: assets/images/skills/nodejs.png
   alt: NodeJS
-placeholder2:
-  image: assets/images/skills/placeholder.png
-  alt:
