@@ -11,7 +11,7 @@
       {% for skill in site.data.skills %}
         <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1">
           <div class="circle">
-            <img src="{{ skill[1].image }}" alt="{{ skill[1].alt }}" style="width:100%" data-toggle="tooltip" data-placement="bottom" title="{{ skill[1].alt }}">
+            <img src="{{ skill[1].image }}" class="img-responsive" alt="{{ skill[1].alt }}" style="width:100%; padding: 5px" data-toggle="tooltip" data-placement="bottom" title="{{ skill[1].alt }}">
           </div>
         </div>
       {% endfor %}
