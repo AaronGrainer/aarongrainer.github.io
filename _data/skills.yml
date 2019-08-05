@@ -1,6 +1,6 @@
-placeholder1:
-  image: assets/images/skills/placeholder.png
-  alt:
+# placeholder1:
+#   image: assets/images/skills/placeholder.png
+#   alt:
 tensorflow:
   image: assets/images/skills/tensorflow.png
   alt: Tensorflow
