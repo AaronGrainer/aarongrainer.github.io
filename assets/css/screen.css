@@ -1917,6 +1917,7 @@ body.page-template .post-title {
 @media only screen and (max-width: 500px) {
 
     .main-header {
+        margin-bottom: 0px;
         height: 40vh;
     }
 
@@ -1932,6 +1933,7 @@ body.page-template .post-title {
 
     .main-nav {
         padding: 5px;
+        margin-bottom: 0rem;
     }
 
     .blog-logo {
