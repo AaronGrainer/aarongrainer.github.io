@@ -3,7 +3,6 @@ layout: default
 title: Aaron Grainer
 cover: 'assets/images/LQqfap.jpg'
 class: 'home-template'
-navigation: False
 logo2: 'assets/images/logo/grainer-logo.png'
 current: home
 ---
@@ -12,9 +11,6 @@ current: home
 <header class="main-header" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
 	<nav class="main-nav overlay clearfix">
 		{% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
-		{% if page.navigation %}
-			<a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-		{% endif %}
 	</nav>
 	<div class="vertical">
 		<div class="main-header-content inner">
