@@ -17,8 +17,8 @@ singularitynet:
   image: assets/images/skills/singularitynet.png
   alt: SingularityNET
 python:
-  image: assets/images/skills/python.png
-  alt: Python
+  image: assets/images/skills/graphql.png
+  alt: GraphQL
 gcloud: 
   image: assets/images/skills/gcloud.png
   alt: gcloud
@@ -35,5 +35,5 @@ mongodb:
   image: assets/images/skills/mongodb.png
   alt: MongoDB
 nodejs:
-  image: assets/images/skills/nodejs.png
-  alt: NodeJS
+  image: assets/images/skills/aws.png
+  alt: AWS
