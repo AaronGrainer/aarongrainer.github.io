@@ -1,5 +1,14 @@
 # Profile Page Github Pages
 
+<p align="center">
+  <a>
+    <img alt="Code Progress" src="https://img.shields.io/badge/Code-Completed-success">
+  </a>
+  <a href="https://github.com/aarongrainer/aarongrainer.github.io/blob/master/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/aarongrainer/aarongrainer.github.io?color=blue">
+  </a>
+</p>
+
 A Front End public profile page detailing my current expertise, recent open-source projects and education/working experiences. Jekyll is used to provide a simple, blog-aware, static site generated website ready to be served using Github Pages. The Markdown and Liquid styled templates coupled with a HTML backbone allows for easy blog-style content additions and more in-depth styling modifications. 
 
 ## Getting Started
