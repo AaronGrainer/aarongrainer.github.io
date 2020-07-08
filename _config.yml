@@ -7,11 +7,11 @@ paginate: 100
 language: 'en-uk'
 
 # Website info
-name: Aaron Grainer
-description: Full stack developer and part-time Artificial Intelligence researcher. The story begins here.
-bio: Full stack developer and part-time Artificial Intelligence researcher.
+name: Aaron Lim Fang Zhen
+description: Machine Learning Engineer and Full Stack Developer.
+bio: Machine Learning Engineer and Full Stack Developer.
 location: Kuala Lumpur, Malaysia
-email: aaronlimfz@hotmail.com
+email: aaronlimfz@gmail.com
 profile_picture: assets/images/profile/grainer_jap.jpg
 
 short_url: aarongrainer.github.io
