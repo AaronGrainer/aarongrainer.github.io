@@ -7,15 +7,15 @@ tensorflow:
 pytorch:
   image: assets/images/skills/pytorch.png
   alt: Pytorch
-keras:
-  image: assets/images/skills/keras.jpg
-  alt: Keras
+huggingface:
+  image: assets/images/skills/huggingface.png
+  alt: HuggingFace
 openaiGym:
   image: assets/images/skills/openaiGym.png
   alt: OpenAI Gym
-singularitynet:
-  image: assets/images/skills/singularitynet.png
-  alt: SingularityNET
+fastapi:
+  image: assets/images/skills/fastapi.png
+  alt: FastAPI
 python:
   image: assets/images/skills/graphql.png
   alt: GraphQL
