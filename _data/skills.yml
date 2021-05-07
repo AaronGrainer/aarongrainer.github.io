@@ -1,6 +1,3 @@
-# placeholder1:
-#   image: assets/images/skills/placeholder.png
-#   alt:
 tensorflow:
   image: assets/images/skills/tensorflow.png
   alt: Tensorflow
@@ -13,12 +10,6 @@ huggingface:
 openaiGym:
   image: assets/images/skills/openaiGym.png
   alt: OpenAI Gym
-fastapi:
-  image: assets/images/skills/fastapi.png
-  alt: FastAPI
-python:
-  image: assets/images/skills/graphql.png
-  alt: GraphQL
 gcloud: 
   image: assets/images/skills/gcloud.png
   alt: gcloud
@@ -31,9 +22,15 @@ bigquery:
 react:
   image: assets/images/skills/react.png
   alt: React
-mongodb:
-  image: assets/images/skills/mongodb.png
-  alt: MongoDB
-nodejs:
-  image: assets/images/skills/aws.png
-  alt: AWS
+fastapi:
+  image: assets/images/skills/fastapi.png
+  alt: FastAPI
+python:
+  image: assets/images/skills/graphql.png
+  alt: GraphQL
+docker:
+  image: assets/images/skills/docker.png
+  alt: Docker
+kubernetes:
+  image: assets/images/skills/kubernetes.png
+  alt: Kubernetes
