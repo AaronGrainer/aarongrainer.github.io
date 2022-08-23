@@ -10,15 +10,15 @@ huggingface:
 openaiGym:
   image: assets/images/skills/openaiGym.png
   alt: OpenAI Gym
-gcloud: 
-  image: assets/images/skills/gcloud.png
-  alt: gcloud
-firebase:
-  image: assets/images/skills/firebase.png
-  alt: Firebase
 bigquery:
   image: assets/images/skills/bigquery.png
   alt: Bigquery
+gcp: 
+  image: assets/images/skills/gcloud.png
+  alt: GCP
+aws:
+  image: assets/images/skills/aws.png
+  alt: AWS
 react:
   image: assets/images/skills/react.png
   alt: React
