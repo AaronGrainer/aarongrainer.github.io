@@ -7,7 +7,7 @@ paginate: 100
 language: 'en-uk'
 
 # Website info
-name: Aaron Lim Fang Zhen
+name: Aaron Lim
 description: Machine Learning Engineer
 bio: Machine Learning Engineer
 location: Singapore
@@ -16,7 +16,7 @@ profile_picture: assets/images/profile/grainer_jap.jpg
 
 short_url: aarongrainer.github.io
 github_url: github.com/aarongrainer
-linkedin_url: linkedin.com/in/aaron-lim-fang-zhen-9376701aa/
+linkedin_url: linkedin.com/in/aaron-lim-9376701aa/
 twitter_url: twitter.com/aarongrainer
 google_analytics: UA-69281367-1
 disqus: username
