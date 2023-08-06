@@ -7,9 +7,9 @@ paginate: 100
 language: 'en-uk'
 
 # Website info
-name: Aaron Lim Fang Zhen
-description: Machine Learning Engineer
-bio: Machine Learning Engineer
+name: Aaron Lim
+description: Software Engineer
+bio: Software Engineer
 location: Singapore
 email: aaronlimfz@gmail.com
 profile_picture: assets/images/profile/grainer_jap.jpg

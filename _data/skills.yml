@@ -1,36 +1,45 @@
-tensorflow:
-  image: assets/images/skills/tensorflow.png
-  alt: Tensorflow
-pytorch:
-  image: assets/images/skills/pytorch.png
-  alt: Pytorch
-huggingface:
-  image: assets/images/skills/huggingface.png
-  alt: HuggingFace
-openaiGym:
-  image: assets/images/skills/openaiGym.png
-  alt: OpenAI Gym
-bigquery:
-  image: assets/images/skills/bigquery.png
-  alt: Bigquery
-gcp: 
-  image: assets/images/skills/gcloud.png
-  alt: GCP
-aws:
-  image: assets/images/skills/aws.png
-  alt: AWS
-react:
-  image: assets/images/skills/react.png
-  alt: React
-fastapi:
-  image: assets/images/skills/fastapi.png
-  alt: FastAPI
-python:
-  image: assets/images/skills/graphql.png
-  alt: GraphQL
 docker:
   image: assets/images/skills/docker.png
   alt: Docker
 kubernetes:
   image: assets/images/skills/kubernetes.png
   alt: Kubernetes
+aws:
+  image: assets/images/skills/aws.png
+  alt: AWS
+gcp: 
+  image: assets/images/skills/gcloud.png
+  alt: GCP
+circleci:
+  image: assets/images/skills/circleci.png
+  alt: CircleCI
+terraform:
+  image: assets/images/skills/terraform.png
+  alt: Terraform
+pytorch:
+  image: assets/images/skills/pytorch.png
+  alt: Pytorch
+huggingface:
+  image: assets/images/skills/huggingface.png
+  alt: HuggingFace
+fastapi:
+  image: assets/images/skills/fastapi.png
+  alt: FastAPI
+react:
+  image: assets/images/skills/react.png
+  alt: React
+prefect:
+  image: assets/images/skills/prefect.png
+  alt: Prefect
+# graphql:
+#   image: assets/images/skills/graphql.png
+#   alt: GraphQL
+# tensorflow:
+#   image: assets/images/skills/tensorflow.png
+#   alt: Tensorflow
+# openaiGym:
+#   image: assets/images/skills/openaiGym.png
+#   alt: OpenAI Gym
+# bigquery:
+#   image: assets/images/skills/bigquery.png
+#   alt: Bigquery
