@@ -1,7 +1,7 @@
 ---
-cover:  assets/images/mini-projects/cover-image/bus.jpg
+cover: assets/images/mini-projects/cover-image/bus.jpg
 title: Autonomous Driving Vision
-tags: [LLM]
+tags: [Vision]
 platform: pytorch
 github-url: https://github.com/AaronGrainer/autonomous-driving-vision
 ---
